@@ -4,7 +4,7 @@ pipeline {
     parameters {
         string(name: 'Operand1', defaultValue: '0', description: 'First operand')
         string(name: 'Operand2', defaultValue: '0', description: 'Second operand')
-        choice(name: 'Operation', choices: ['+', '-', '*', '/'], description: 'Operation to perform')
+        choice(name: 'Operation', choices: ['SUM', 'MIN', 'MUL', 'DIV'], description: 'Operation to perform')
     }
 
     stages {
