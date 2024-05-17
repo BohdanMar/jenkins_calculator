@@ -1,13 +1,13 @@
 import sys
 
 def calculate(operand1, operand2, operation):
-    if operation == '+':
+    if operation == 'SUM':
         return operand1 + operand2
-    elif operation == '-':
+    elif operation == 'MIN':
         return operand1 - operand2
     elif operation == 'MUL':
         return operand1 * operand2
-    elif operation == '/':
+    elif operation == 'DIV':
         return operand1 / operand2
     else:
         raise ValueError("Invalid operation")
