@@ -5,7 +5,7 @@ def calculate(operand1, operand2, operation):
         return operand1 + operand2
     elif operation == '-':
         return operand1 - operand2
-    elif operation == '*':
+    elif operation == 'MUL':
         return operand1 * operand2
     elif operation == '/':
         return operand1 / operand2
